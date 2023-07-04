@@ -13,10 +13,10 @@
     "next/core-web-vitals"
   ],
   "rules": {
-    "prettier/prettier": "error",
-    "react/react-in-jsx-scope": "off",
-    "react/prop-types": "error",
-    "no-unused-vars": "error",
-    "react/no-unescaped-entities": "error"
+    "prettier/prettier": 2,
+    "react/react-in-jsx-scope": 0,
+    "react/prop-types": 2,
+    "no-unused-vars": 2,
+    "react/no-unescaped-entities": 2
   }
 }
