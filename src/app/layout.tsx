@@ -1,15 +1,10 @@
 import { Inter } from "next/font/google"
 import React from "react"
 
-import "@/app/globals.css"
+import "@/app/globals.scss"
 import { Providers } from "@/providers"
 
 const inter = Inter({ subsets: ["latin"] })
-
-export const metadata = {
-  title: "My personal blog | Renato Damas",
-  description: "Personal blog that discusses topics on software engineering",
-}
 
 export default function RootLayout({
   children,
@@ -18,8 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Providers>{children}</Providers>
+      <body className={`min-h-screen antialiased ${inter.className}`}>
+        <Providers>
+          <div>{children}</div>
+        </Providers>
       </body>
     </html>
   )
