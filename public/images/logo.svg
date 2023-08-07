@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-100,-130)" fill="currentColor">
+        <path transform="translate(120)"
+              d="m140 130v80h-80v80h40v-40h40v40h-40v40h40a40 40 0 0 0 40-40v-120a40 40 0 0 0-40-40z"/>
+        <path d="m140 130a40 40 0 0 0-40 40v120a40 40 0 0 0 40 40v-120h40v-40h-40zm40 40h40v-40h-40z"/>
+    </g>
+</svg>
