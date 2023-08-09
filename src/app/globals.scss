@@ -12,11 +12,9 @@ $color-secondary-light: #e2e8f0;
   --background: #{$color-primary-light};
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color-primary: #{$color-secondary-light};
-    --background: #{$color-primary-dark};
-  }
+html.dark {
+  --text-color-primary: #{$color-secondary-light};
+  --background: #{$color-primary-dark};
 }
 
 body {
