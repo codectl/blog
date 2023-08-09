@@ -13,10 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen antialiased ${inter.className}`}>
-        <Providers>
-          <div>{children}</div>
-        </Providers>
+      <body
+        className={`min-h-screen antialiased transition-colors duration-1000 ${inter.className}`}
+      >
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
