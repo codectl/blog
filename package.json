@@ -10,6 +10,7 @@
     "lint": "next lint --fix"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "mdx-bundler": "^9.2.1",
     "next": "13.4.7",
     "next-themes": "^0.2.1",
